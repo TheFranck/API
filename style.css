@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(nightsky.jpg);
+  font-family: 'Press Start 2P', cursive;
+  color: yellow;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+#loading-screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#planet-list ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+#planet-list ul li {
+  border: 1px solid lightyellow;
+  padding:30px 10px;
+  text-transform: uppercase;
+  font-size: 30px;
+  min-width: 600px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  -moz-box-shadow: 2px 2px 3px yellow;
+  -webkit-box-shadow: 2px 2px 3px yellow;
+  -o-box-shadow: 2px 2px 3px yellow;
+  box-shadow: 2px 2px 3px yellow;
+  font-weight: 600;
+}
+
+#planet-list ul li:hover {
+  -moz-box-shadow: 4px 5px 5px yellow;
+  -webkit-box-shadow: 4px 5px 5px yellow;
+  -o-box-shadow: 4px 5px 5px yellow;
+  box-shadow: 4px 5px 5px yellow;
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+}
+
+button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    font-size: 30px;
+    color: yellow;
+    border: 1px solid #888;
+    padding:7px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -moz-box-shadow: 2px 2px 3px yellow;
+    -webkit-box-shadow: 2px 2px 3px yellow;
+    -o-box-shadow: 2px 2px 3px yellow;
+    box-shadow: 2px 2px 3px yellow;
+
+}
+
+button:hover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    border: 1px solid #888;
+    padding:5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -moz-box-shadow: 2px 2px 3px yellow;
+    -webkit-box-shadow: 2px 2px 3px yellow;
+    -o-box-shadow: 2px 2px 3px yellow;
+    box-shadow: 2px 2px 3px yellow;
+}
+
+#planet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#planet h1{
+  font-size: 45px;
+  font-weight: 400;
+}
+
+#planet label {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#planet select {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
